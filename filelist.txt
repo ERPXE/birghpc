@@ -1,0 +1,16 @@
+.:
+birghpc.menu
+birghpc.png
+filelist.txt
+i386
+x86_64
+
+./i386:
+birghpcmain.menu
+initrd.img
+vmlinuz
+
+./x86_64:
+birghpcmain.menu
+initrd.img
+vmlinuz
