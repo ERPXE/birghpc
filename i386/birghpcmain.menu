@@ -1,0 +1,8 @@
+LABEL BIRGHPC32
+MENU LABEL ^birgHPC - i386
+KERNEL er/plugins/birghpc/i386/vmlinuz
+INITRD er/plugins/birghpc/i386/initrd.img
+APPEND boot=live live-config netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/birghpc/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 birgHPC Live x32.
+ENDTEXT

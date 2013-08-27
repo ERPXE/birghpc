@@ -1,9 +1,6 @@
 MENU BEGIN BIRGHPCLIVE
+MENU TITLE birgHPC 1.2.1
 MENU LABEL ^birgHPC 1.2.1
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/birghpc/birghpc.png
 
 MENU INCLUDE er/plugins/birghpc/i386/birghpcmain.menu
